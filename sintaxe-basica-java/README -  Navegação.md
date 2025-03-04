@@ -11,3 +11,4 @@ OBS: Muitas dos itens não documentados aqui, estão escritos no meu caderno :D
 ## 📖 Matérias
 
 - 📂 [Aprendendo a Sintaxe Java](aprendendo-sintaxe/)
+- 📂 [Aprendendo a Estrutura Condicional](estrutura-condicional/)
