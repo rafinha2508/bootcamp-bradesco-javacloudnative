@@ -12,7 +12,7 @@ public class ExemploWhile {
 				valorDoce = mesada;
 			
 			System.out.println("Doce do valor: " + valorDoce + " Adiconado no carrinho");
-			mesada = mesada - valorDoce;	
+			mesada = mesada - valorDoce;
 		}
 		
 		System.out.println("Mesada R$" + mesada);
