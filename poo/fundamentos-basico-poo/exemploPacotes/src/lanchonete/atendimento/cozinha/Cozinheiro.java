@@ -4,36 +4,36 @@ import lanchonete.atendimento.Atendente;
 
 public class Cozinheiro {
 
-	public static void adicionarLancheNoBalcao() {
+	public void adicionarLancheNoBalcao() {
 		System.out.println("ADICIONANDO LANCHE NATURAL HAMBURGER NO BALCAO");
 	}
-	public static void adicionarSucoNoBalcao() {
+	public void adicionarSucoNoBalcao() {
 		System.out.println("ADICIONANDO SUCO NO BALCAO");
 	}
-	public static void adicionarComboNoBalcao() {
+	public void adicionarComboNoBalcao() {
 		adicionarLancheNoBalcao();
 		adicionarSucoNoBalcao();
 	}	
-	public static void prepararLanche() {
+	private void prepararLanche() {
 		System.out.println("PREPARANDO LANCHE TIPO HAMBURGER");
 	}
-	public static void prepararVitamina() {
+	private void prepararVitamina() {
 		System.out.println("PREPARANDO SUCO");
 	}
-	public static void prepararCombo() {
+	public void prepararCombo() {
 		prepararLanche();
 		prepararVitamina();
 	}
 	public void selecionarIngredientesLanche() {
 		System.out.println("SELECIOANDNO O PAO, SALADA, OVO E CARNE");
 	}
-	public void selecionarIngredientesVitamina() {
+	private void selecionarIngredientesVitamina() {
 		System.out.println("SELECIONANDO FRUTA, LEITE E SUCO");
 	}
-	public void lavarIngredientes() {
+	private void lavarIngredientes() {
 		System.out.println("LAVANDO INGREDIENTES");
 	}
-	public void baterVitaminaLiquidificador() {
+	private void baterVitaminaLiquidificador() {
 		System.out.println("BATENDO VITAMINA");
 	}
 	public void fritarIngredienteLanche() {
