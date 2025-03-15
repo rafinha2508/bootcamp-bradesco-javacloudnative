@@ -36,16 +36,13 @@ public class Cozinheiro {
 	private void baterVitaminaLiquidificador() {
 		System.out.println("BATENDO VITAMINA");
 	}
-	public void fritarIngredienteLanche() {
+	private void fritarIngredienteLanche() {
 		System.out.println("FRITANDO CARNE E OVO");
 	}
-	public void pedirParaTrocarGas(Atendente meuAmigo) {
+	private void pedirParaTrocarGas(Almoxarife meuAmigo) {
 		meuAmigo.trocarGas();
 	}
-	public void pedirParaTrocarGas(Almoxarife meuAmigo) {
-		meuAmigo.trocarGas();
-	}
-	public void pedirIngredientes(Almoxarife almoxarife) {
-		Almoxarife.entregarIngredientes();
+	private void pedirIngredientes(Almoxarife almoxarife) {
+		almoxarife.entregarIngredientes();
 	}
 }
