@@ -2,7 +2,7 @@ package escola;
 
 public class Aluno {
     private String nome;
-    private idade;
+    private int idade;
 
     public String getNome() {
         return nome;
